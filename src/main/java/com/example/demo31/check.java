@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class check implements Runnable{
     String y;
     boolean res ;
-    ArrayList<Button> buttonList;
+    ArrayList<Button>  buttonList;
     public check(String y, ArrayList<Button> buttonList){
         this.y=y;
         this.buttonList = buttonList;

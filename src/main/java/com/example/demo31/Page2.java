@@ -17,7 +17,7 @@ import java.io.IOException;
 
 public class Page2 {
     @FXML
-    Label label2;
+    Label label2 ;
     @FXML
     protected void onEnterButtonPressed(ActionEvent event) throws IOException {
         Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();

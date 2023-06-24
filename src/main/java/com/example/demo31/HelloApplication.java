@@ -14,7 +14,7 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Tic-Tac-Toe");
         stage.setScene(scene);
-        stage.show();
+        stage.show() ;
     }
 
     public static void main(String[] args) {

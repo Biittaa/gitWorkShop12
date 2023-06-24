@@ -12,7 +12,7 @@ import java.io.IOException;
 
 
 
-public class HelloController {
+public class HelloController  {
     @FXML
     private Label welcomeText;
 
